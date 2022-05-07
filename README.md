@@ -97,23 +97,32 @@ This shortcode will display 10 recent posts with language code "en" and use the 
 
 ### List of supported parameters
 
-- `lang` (string) -
+- `lang` (string) - Retrieves posts by language. Can accept multiple language codes separated by a comma. E.g. `[pbl lang="en"][/pbl]` will retrieve posts with language code "en" (English), and `[pbl lang="en, de"][/pbl]` will retrieve English (en) and German (de) posts. Default is the active post/page language.
 
-- `lang_detect` (string)
+- `lang_detect` (string) - Method used to detect language automatically. Default: 'parent'.<br>
 
-- `post_type` (string) - Retrieves posts by post types, default value is ‘post‘. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#post-type-parameters>)
+    Supported values:
 
-- `post_status` (srting) - Retrieves posts by post status. Default value is ‘publish‘ [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#status-parameters>)
+    - `polylang` \- uses polylang function[ *pll\_current\_language()*](<https://polylang.pro/doc/function-reference/#pll_current_language>) to get the language code
+    - `locale` \- uses WordPress function *[get\_locale()](<https://developer.wordpress.org/reference/functions/get_locale/>)* to detect current language
+    - `bloginfo` \- uses WordPress function [*get\_bloginfo( 'language' )*](<https://developer.wordpress.org/reference/functions/bloginfo/>) to detect active language
+    - `parent` (Default) - uses the language code of the post/page where the shortcode is used.
 
-- `posts_per_page` (int) - Number of post to show per page. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#pagination-parameters>)
+    - `post_type` (string) - Retrieves posts by post types, default value is ‘post‘. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#post-type-parameters>)
 
-- `offset` (int) - Number of post to displace or pass over. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#pagination-parameters>)
+- `post_status` (string) - Retrieves posts by post status. Default value is ‘publish‘ [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#status-parameters>)
+
+- `posts_per_page` (int) - Number of posts to show per page. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#pagination-parameters>)
+
+- `offset` (int) - Number of posts to displace or pass over. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#pagination-parameters>)
 
 - `orderby` (string) - Sort retrieved posts by parameter. Defaults to ‘date (post\_date)’. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#order-orderby-parameters>)
 
 - `order` (string) - Designates the ascending or descending order of the ‘orderby‘ parameter. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#order-orderby-parameters>)
 
 - `cat_sep` (string) - Separator between the categories. Default is a comma `', '`
+
+
 
 
 
