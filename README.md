@@ -83,8 +83,20 @@ Here is an example of how a custom markup can be provided to overwrite the defau
 - `{excerpt}` \- Inserts the post excerpt
 - `{lang}` \- Inserts language code of the post 
 
-## Shortcode attributes
+## Shortcode parameters
 
-The shortcode supports multiple attributes to customize the query and the output
+The shortcode supports multiple parameters to customize the query and the output
+
+### Example of using shortcode parameters
+
+```
+[pbl lang="en" posts_per_page=10][/pbl]
+```
+
+This shortcode will display 10 recent posts with language code "en" and use the [default markup](<https://github.com/samirank/get-posts-by-language/blob/main/README.md#default-markup>)
+
+### List of supported parameters
+
+
 
 
