@@ -14,7 +14,7 @@ The HTML markup inserted between the `[pbl]` and `[/pbl]` will be used to creat
 
 For e.g.
 
-`[pbl] &amp;amp;lt;h4&amp;amp;gt;{title}&amp;amp;lt;/h4&amp;amp;gt; [/pbl]`
+`[pbl] <h4>{title}</h4> [/pbl]`
 
 will generate the following output
 
@@ -73,7 +73,7 @@ Here is an example of how a custom markup can be provided to overwrite the defau
 
 - `{title}` \- Inserts post title)
 - `{link}` \- Inserts post permalink
-- `{thumbnail}` \- Inserts post thumbnail with `&amp;amp;amp;amp;amp;amp;amp;lt;img&amp;amp;amp;amp;amp;amp;amp;gt;` markup
+- `{thumbnail}` \- Inserts post thumbnail with `<img>` markup
 - `{thumbnail-url}` \- Inserts post thumbnail URL
 - `{thumbnail-alt}` \- Inserts alt text of the thumbnail image or post title as alt text
 - `{author-url}` \- Inserts URL or the author page
