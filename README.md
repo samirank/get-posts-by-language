@@ -16,11 +16,11 @@ For e.g.
 
 will generate the following output
 
-#### Title 1
+#### Post 1 Title
 
-#### Title 2
+#### Post 2 Title
 
-#### Title 3
+#### Post 3 Title
 
 #### …
 
