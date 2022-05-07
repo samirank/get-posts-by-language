@@ -1,5 +1,3 @@
-# Display posts by language
-
 ---
 
 ## Shortcode example 
