@@ -104,7 +104,7 @@ This shortcode will display 10 recent posts with language code "en" and use the 
     - `bloginfo` \- uses WordPress function [*get\_bloginfo( 'language' )*](<https://developer.wordpress.org/reference/functions/bloginfo/>) to detect active language
     - `parent` (Default) - uses the language code of the post/page where the shortcode is used.
 
-    - `post_type` (string) - Retrieves posts by post types, default value is ‘post‘. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#post-type-parameters>)
+- `post_type` (string) - Retrieves posts by post types, default value is ‘post‘. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#post-type-parameters>)
 
 - `post_status` (string) - Retrieves posts by post status. Default value is ‘publish‘ [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#status-parameters>)
 
