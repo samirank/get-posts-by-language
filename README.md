@@ -97,6 +97,25 @@ This shortcode will display 10 recent posts with language code "en" and use the 
 
 ### List of supported parameters
 
+- `lang` (string) -
+
+- `lang_detect` (string)
+
+- `post_type` (string) - Retrieves posts by post types, default value is ‘post‘. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#post-type-parameters>)
+
+- `post_status` (srting) - Retrieves posts by post status. Default value is ‘publish‘ [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#status-parameters>)
+
+- `posts_per_page` (int) - Number of post to show per page. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#pagination-parameters>)
+
+- `offset` (int) - Number of post to displace or pass over. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#pagination-parameters>)
+
+- `orderby` (string) - Sort retrieved posts by parameter. Defaults to ‘date (post\_date)’. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#order-orderby-parameters>)
+
+- `order` (string) - Designates the ascending or descending order of the ‘orderby‘ parameter. [*See WordPress documentation*](<https://developer.wordpress.org/reference/classes/wp_query/#order-orderby-parameters>)
+
+- `cat_sep` (string) - Separator between the categories. Default is a comma `', '`
+
+
 
 
 
