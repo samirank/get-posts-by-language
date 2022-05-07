@@ -67,7 +67,7 @@ Here is an example of how a custom markup can be provided to overwrite the defau
 [/pbl]
 ```
 
-### **List of supported mark-up template tags**
+### **List of supported markup template tags**
 
 - `{title}` \- Inserts post title)
 - `{link}` \- Inserts post permalink
