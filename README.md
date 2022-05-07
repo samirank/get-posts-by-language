@@ -1,5 +1,3 @@
----
-
 ## Shortcode example 
 
 ```
