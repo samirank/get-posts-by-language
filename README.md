@@ -118,6 +118,13 @@ This shortcode will display 10 recent posts with language code "en" and use the 
 
 - `cat_sep` (string) - Separator between the categories. Default is a comma `', '`
 
+#### Pagination Parameters
+
+- `pagination` (bool) - Show posts pagination on archive page templates. Default: `false` . E.g. `[pbl pagination=true][/pbl]`
+- `prev_text` (string) - The previous page text. Default 'Newer'.
+- `next_text` (string) - The next page text. Default 'Older'.
+- `mid_size` (int) - How many numbers to either side of the current pages. Default 2.
+- `prev_next` (bool) - Whether to include the previous and next links in the list. Default true.
 
 
 
