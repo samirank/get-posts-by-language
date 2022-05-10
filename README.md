@@ -72,7 +72,7 @@ Here is an example of how a custom markup can be provided to overwrite the defau
 - `{thumbnail}` \- Inserts post thumbnail with `<img>` markup
 - `{thumbnail-url}` \- Inserts post thumbnail URL
 - `{thumbnail-alt}` \- Inserts alt text of the thumbnail image or post title as alt text
-- `{author-url}` \- Inserts URL or the author page
+- `{author-url}` \- Inserts URL of the author page
 - `{author-name}` \- Inserts name of the author
 - `{date}` \- Inserts post date
 - `{terms}` \- Inserts comma-separated post category list with a hyperlink to each category page.
